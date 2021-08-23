@@ -47,11 +47,11 @@ c = c + "String!";
 // case matters. variables need to respect upper/lower case. var A is different than var a
 // camelCase is considered best practice in JS
 // Declarations:
-var StUdLyCapVaR;
-var properCamelCase;
-var TitleCaseOver;
+var studlyCapVar; // var StUdLyCapVaR;
+var properCamelCase; // var properCamelCase;
+var titleCaseOver; // var TitleCaseOver;
 
 // Assignments:
-STUDLYCAPVAR = 10;
-PRoperCAmelCAse = "A String";
-tITLEcASEoVER = 9000;
+studlyCapVar = 10; // STUDLYCAPVAR = 10;
+properCamelCase = "A String"; // PRoperCAmelCAse = "A String";
+titleCaseOver = 9000; // tITLEcASEoVER = 9000;
