@@ -44,6 +44,8 @@ a = a + 1;
 b = b + 5;
 c = c + "String!";
 
+// case matters. variables need to respect upper/lower case. var A is different than var a
+// camelCase is considered best practice in JS
 // Declarations:
 var StUdLyCapVaR;
 var properCamelCase;
