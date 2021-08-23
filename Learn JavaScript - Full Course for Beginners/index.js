@@ -234,3 +234,9 @@ var ourData = ourArray[0];
 var myArray = [50,60,70];
 var myData = myArray[0];
 console.log(myData);
+
+var ourArray = [18,64,99];
+ourArray[1] = 45 // arrays are NOT immutable. we can change the second item in the array like so.
+
+var myArray = [18,64,99];
+myArray[2] = 7;
