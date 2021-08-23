@@ -164,3 +164,10 @@ var ourStr = "Hello, our name is " + ourName + ", how are you?";
 var myName = "Tom";
 var myStr = "Hello, my name is " + myName + " and I am well!";
 console.log(myStr);
+
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+
+var someAdjective;
+var myStr = "Learning to code is ";
