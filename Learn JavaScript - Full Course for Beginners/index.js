@@ -194,3 +194,15 @@ var lastName = "Lovelace";
 
 firstLetterOfLastName = lastName[0];
 console.log(firstLetterOfLastName);
+secondLetterOfLastName = lastName[1];
+
+var myStr = "Jello World";
+
+// myStr[0] = "H" // This won't work since strings are immutable. We need to reassign the whole variable.
+myStr = "Hello World";
+
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+
+var lastName = "Lovelace";
+var thirdLetterOfLastName = lastName[2];
