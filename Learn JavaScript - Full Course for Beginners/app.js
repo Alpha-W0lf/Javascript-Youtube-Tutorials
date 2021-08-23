@@ -15,3 +15,11 @@ number = 9;
 
 /* Data Types:
 undefined, null, boolean, string, symbol, number, object */
+
+var myName = "Tom";
+
+myName = 8;
+
+let ourName = "freeCodeCamp";
+
+const pi = 3.14;
