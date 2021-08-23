@@ -132,3 +132,16 @@ var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
 // by using single quotes ', we can use double quotes " inside without escaping:
 // we can also use back ticks `
 var myStr = `'<a href="http://www.example.com" target="_blank">Link</a>'`;
+
+/***
+\' single quote
+\" double quote
+\\ backslash
+\n newline
+\r carriage return
+\t tab
+\b backspace
+\f form feed
+***/
+
+var myStr = 
