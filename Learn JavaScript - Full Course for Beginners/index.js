@@ -261,3 +261,17 @@ var removedFromMyArray = myArray.shift(); // removes first element from array an
 myArray.unshift("Happy"); // adds "Happy" as first element of array
 
 var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]];
+
+function ourReusableFunction() {
+    console.log("Heyya, World");
+}
+
+ourReusableFunction();
+ourReusableFunction();
+ourReusableFunction();
+
+function reusableFunction() {
+    console.log("Hi World!");
+}
+
+reusableFunction();
