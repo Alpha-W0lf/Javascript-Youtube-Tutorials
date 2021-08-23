@@ -290,7 +290,7 @@ functionWithArgs(10, 5);
 var myGlobal = 10;
 
 function fun1() {
-    var oopsGlobal = 5;
+    oopsGlobal = 5; // no "var" keyword. Since it is within a function, using "var" would make it scoped to just this function. By leaving "var" off, this variable becomes global. Some IDEs will still force "var" keyword, but browser will not.
 }
 
 function fun2() {
