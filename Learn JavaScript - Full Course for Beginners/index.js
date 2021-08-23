@@ -70,3 +70,7 @@ console.log(quotient);
 
 myVar = myVar + 1;
 myVar++; //same thing as + 1
+
+myVar = 11;
+myVar = myVar - 1;
+myVar--; // same thing as - 1
