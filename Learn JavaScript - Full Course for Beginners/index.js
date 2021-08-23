@@ -258,3 +258,4 @@ var removedFromOurArray = ourArray.pop(); // removes and returns the last elemen
 var myArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray = myArray.pop();
 var removedFromMyArray = myArray.shift(); // removes first element from array and assigns it to the variable "removedFromMyArray"
+myArray.unshift("Happy"); // adds "Happy" as first element of array
