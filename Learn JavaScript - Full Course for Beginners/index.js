@@ -144,4 +144,4 @@ var myStr = `'<a href="http://www.example.com" target="_blank">Link</a>'`;
 \f form feed
 ***/
 
-var myStr = 
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
