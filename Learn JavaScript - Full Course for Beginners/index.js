@@ -313,3 +313,14 @@ function myLocalScope() {
 }
 myLocalScope();
 console.log(myVar); // This will not work since myVar is scoped to the above function. We are attempting to call it globally here.
+
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+    var outerWear = "Sweater";
+    return outerWear;
+}
+
+console.log(myOutfit()); // will return "Sweater"
+console.log(outerWear); // will return "T-Shirt" since the variable was changed to sweater only within the function
+
