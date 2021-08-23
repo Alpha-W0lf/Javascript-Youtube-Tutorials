@@ -55,3 +55,18 @@ var titleCaseOver; // var TitleCaseOver;
 studlyCapVar = 10; // STUDLYCAPVAR = 10;
 properCamelCase = "A String"; // PRoperCAmelCAse = "A String";
 titleCaseOver = 9000; // tITLEcASEoVER = 9000;
+
+var sum = 10 + 5;
+console.log(sum);
+
+var difference 45 - 33;
+console.log(difference);
+
+var product = 8 * 10;
+console.log(product);
+
+var quotient = 66 / 2;
+console.log(quotient);
+
+myVar = myVar + 1;
+myVar++; //same thing as + 1
