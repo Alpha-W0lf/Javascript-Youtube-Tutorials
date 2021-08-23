@@ -119,3 +119,12 @@ b = b / 4;
 b /= 4;
 c = c / 11;
 c /= 11;
+
+var firstName = "Alan";
+var lastName = "Turing";
+
+var myFirstName = "Tom";
+var myLastName = "Chacko";
+
+// use \ to escape characters
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
