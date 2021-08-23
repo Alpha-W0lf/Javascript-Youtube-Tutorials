@@ -210,3 +210,6 @@ var thirdLetterOfLastName = lastName[2];
 var lastLetterOfFirstName = firstName[firstName.length - 1];
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
