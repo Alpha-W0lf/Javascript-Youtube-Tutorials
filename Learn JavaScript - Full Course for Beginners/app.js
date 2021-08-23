@@ -10,3 +10,8 @@ afswg
 awgawd
 getComputedStyleFRw
 f */
+
+number = 9;
+
+/* Data Types:
+undefined, null, boolean, string, symbol, number, object */
