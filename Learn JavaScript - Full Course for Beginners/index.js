@@ -221,3 +221,7 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 
 console.log(wordBlanks("dog", "big", "ran", "quickly"));
 console.log(wordBlanks("bike", "slow", "flew", "slowly"));
+
+var ourArray = ["John", 23];
+
+var myArray = ["Tom", 17, null, 5.33];
