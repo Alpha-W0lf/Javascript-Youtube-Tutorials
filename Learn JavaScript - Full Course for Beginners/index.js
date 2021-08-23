@@ -259,3 +259,5 @@ var myArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray = myArray.pop();
 var removedFromMyArray = myArray.shift(); // removes first element from array and assigns it to the variable "removedFromMyArray"
 myArray.unshift("Happy"); // adds "Happy" as first element of array
+
+var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]];
