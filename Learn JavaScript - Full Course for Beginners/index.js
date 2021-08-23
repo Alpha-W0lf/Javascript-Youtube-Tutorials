@@ -228,3 +228,9 @@ var myArray = ["Tom", 17, null, 5.33];
 var ourArray = [["the universe", 42], ["everything", 101010]]; // nested array
 var myArray = [["Bulls", 23], [4.5, -2, null]];
 
+var ourArray = [50,60,70];
+var ourData = ourArray[0];
+
+var myArray = [50,60,70];
+var myData = myArray[0];
+console.log(myData);
