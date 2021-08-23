@@ -128,3 +128,7 @@ var myLastName = "Chacko";
 
 // use \ to escape characters
 var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
+
+// by using single quotes ', we can use double quotes " inside without escaping:
+// we can also use back ticks `
+var myStr = `'<a href="http://www.example.com" target="_blank">Link</a>'`;
