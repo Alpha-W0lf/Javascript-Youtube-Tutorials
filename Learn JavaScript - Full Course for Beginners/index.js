@@ -206,3 +206,7 @@ var secondLetterOfFirstName = firstName[1];
 
 var lastName = "Lovelace";
 var thirdLetterOfLastName = lastName[2];
+
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+var lastLetterOfLastName = lastName[lastName.length - 1];
+
