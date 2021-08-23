@@ -74,3 +74,16 @@ myVar++; //same thing as + 1
 myVar = 11;
 myVar = myVar - 1;
 myVar--; // same thing as - 1
+
+var ourDecimal = 5.7;
+
+var myDecimal = 0.00009;
+
+var product = 2.0 * 2.5;
+console.log(product);
+
+var quotient = 4.4 / 2.0;
+console.log(quotient);
+
+var remainder;
+remainder = 11 % 3; // Answer is the remainder (2)
