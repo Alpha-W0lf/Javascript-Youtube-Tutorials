@@ -169,5 +169,17 @@ var anAdjective = "awesome!";
 var ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
 
-var someAdjective;
+var someAdjective = "worthwhile";
 var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+var firstNameLength = 0;
+ver firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+lastNameLength = lastName.length;
+
