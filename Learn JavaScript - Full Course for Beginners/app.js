@@ -43,3 +43,13 @@ var c = "I am a ";
 a = a + 1;
 b = b + 5;
 c = c + "String!";
+
+// Declarations:
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Assignments:
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLEcASEoVER = 9000;
