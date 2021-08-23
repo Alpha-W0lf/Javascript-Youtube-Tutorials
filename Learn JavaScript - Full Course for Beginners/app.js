@@ -23,3 +23,17 @@ myName = 8;
 let ourName = "freeCodeCamp";
 
 const pi = 3.14;
+
+// semicolons not actually required? They just show the end of a line?
+
+var a; // declaring variable
+var b = 2; // declaring and assigning variable
+
+a = 7;
+
+b = a;
+
+console.log(a) // records in browser console. similar to print() in python.
+
+var a = 9;
+
