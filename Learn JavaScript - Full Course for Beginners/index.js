@@ -306,3 +306,10 @@ function fun2() {
 
 fun1();
 fun2();
+
+function myLocalScope() {
+    var myVar = 5;
+    console.log(myVar); // This will work because myVar is scoped to this function
+}
+myLocalScope();
+console.log(myVar); // This will not work since myVar is scoped to the above function. We are attempting to call it globally here.
