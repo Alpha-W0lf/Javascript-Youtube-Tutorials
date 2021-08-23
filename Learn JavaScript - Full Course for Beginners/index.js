@@ -87,3 +87,28 @@ console.log(quotient);
 
 var remainder;
 remainder = 11 % 3; // Answer is the remainder (2)
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+a = a + 12;
+a += 12;
+b = 9 + b;
+b += 9;
+c = c + 7;
+c += 7;
+
+a = a - 6;
+a -= 6;
+b = b - 15;
+b -= 15;
+c = c - 1;
+c -= 1;
+
+a = a * 5;
+a *= 5;
+b = 3 * b;
+b *= 3;
+c = c * 10;
+c *= 10;
