@@ -223,5 +223,8 @@ console.log(wordBlanks("dog", "big", "ran", "quickly"));
 console.log(wordBlanks("bike", "slow", "flew", "slowly"));
 
 var ourArray = ["John", 23];
-
 var myArray = ["Tom", 17, null, 5.33];
+
+var ourArray = [["the universe", 42], ["everything", 101010]]; // nested array
+var myArray = [["Bulls", 23], [4.5, -2, null]];
+
