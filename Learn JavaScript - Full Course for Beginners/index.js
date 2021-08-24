@@ -437,11 +437,24 @@
 
 // console.log(testNotEqual('99'));
 
-function testStrictNotEqual(val) {
-    if (val !== 17) {
-        return "Not equal";
-    }
-    return "Equal";
-}
+// function testStrictNotEqual(val) {
+//     if (val !== 17) {
+//         return "Not equal";
+//     }
+//     return "Equal";
+// }
 
-console.log(testStrictNotEqual('17'));
+// console.log(testStrictNotEqual('17'));
+
+// function testGreaterThan(val) {
+//     if (val > 100) {
+//         return "Over 100";
+//     }
+//     if (val > 10) {
+//         return "Over 10";
+//     }
+//     return "10 or under";
+// }
+
+// console.log(testGreaterThan('1000'));
+
