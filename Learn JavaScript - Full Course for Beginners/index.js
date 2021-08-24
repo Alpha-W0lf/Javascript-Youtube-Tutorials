@@ -59,7 +59,7 @@ titleCaseOver = 9000; // tITLEcASEoVER = 9000;
 var sum = 10 + 5;
 console.log(sum);
 
-var difference 45 - 33;
+var difference = 45 - 33;
 console.log(difference);
 
 var product = 8 * 10;
@@ -68,7 +68,7 @@ console.log(product);
 var quotient = 66 / 2;
 console.log(quotient);
 
-myVar = myVar + 1;
+var myVar = myVar + 1;
 myVar++; //same thing as + 1
 
 myVar = 11;
@@ -158,7 +158,7 @@ var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 console.log(myStr);
 
-var ourName = "freeCodeCamp";
+ourName = "freeCodeCamp";
 var ourStr = "Hello, our name is " + ourName + ", how are you?";
 
 var myName = "Tom";
@@ -174,7 +174,7 @@ var myStr = "Learning to code is ";
 myStr += someAdjective;
 
 var firstNameLength = 0;
-ver firstName = "Ada";
+var firstName = "Ada";
 
 firstNameLength = firstName.length;
 
@@ -243,7 +243,7 @@ myArray[2] = 7;
 
 var arrayOfArrays = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
-var myData = myArray[3][1];
+var myData = arrayOfArrays[3][1];
 
 var ourArray = ["Stimpson", "J", "cat"];
 ourArray.push(["happy", "joy"]);
@@ -324,3 +324,8 @@ function myOutfit() {
 console.log(myOutfit()); // will return "Sweater"
 console.log(outerWear); // will return "T-Shirt" since the variable was changed to sweater only within the function
 
+function minusSeven(num) {
+    return num - 7;
+}
+
+console.log(minusSeven(10));
