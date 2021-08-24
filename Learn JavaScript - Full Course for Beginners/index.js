@@ -403,3 +403,18 @@
 
 // console.log(testEqual(120));
 
+// function testStrict(val) {
+//     if (val === 7) {
+//         return "Equal";
+//     }
+//     return "Not equal";
+// }
+
+// console.log(testStrict(7.0));
+
+/*
+3 === 3   // returns true
+3 === '3'   // returns false because string does not get converted to number
+3 == 3   // returns true
+3 == '3'   // returns true because string gets converted to number
+*/
