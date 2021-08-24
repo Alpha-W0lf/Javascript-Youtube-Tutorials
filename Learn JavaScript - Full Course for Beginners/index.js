@@ -394,3 +394,12 @@
 
 // console.log(trueOrFalse(true));
 
+// function testEqual(val) {
+//     if (val == 12) {
+//         return "Equal";
+//     }
+//     return "Not equal";
+// }
+
+// console.log(testEqual(120));
+
