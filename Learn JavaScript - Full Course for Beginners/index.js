@@ -418,3 +418,13 @@
 3 == 3   // returns true
 3 == '3'   // returns true because string gets converted to number
 */
+
+// function compareEquality(a, b) {
+//     if (a === b) {
+//         return "Equal";
+//     }
+//     return "Not equal";
+// }
+
+// console.log(compareEquality(10, "10"))
+
