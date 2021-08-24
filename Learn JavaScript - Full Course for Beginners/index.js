@@ -361,13 +361,33 @@
 // processed = processArg(7);
 // console.log(processed);
 
-function nextInLine(arr, item) {
-    arr.push(item);
-    return arr.shift();
+// function nextInLine(arr, item) {
+//     arr.push(item);
+//     return arr.shift();
+// }
+
+// var testArr = [1,2,3,4,5];
+
+// console.log("Before: " + JSON.stringify(testArr));
+// console.log(nextInLine(testArr, 6));
+// console.log("After: " + JSON.stringify(testArr));
+
+// function welcomeToBooleans() {
+//     return true;
+// }
+
+// console.log(welcomeToBooleans());
+
+function ourTrueOrFalse(isItTrue) {
+    if (isItTrue) {
+        return "Yes, it's true";
+    }
+    return "No, it's false";
 }
 
-var testArr = [1,2,3,4,5];
+function trueOrFalse(wasThatTrue) {
 
-console.log("Before: " + JSON.stringify(testArr));
-console.log(nextInLine(testArr, 6));
-console.log("After: " + JSON.stringify(testArr));
+
+}
+
+trueOrFalse();
