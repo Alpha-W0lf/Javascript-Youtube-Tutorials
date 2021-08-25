@@ -632,3 +632,17 @@ par + 2     "Double Bogey"
 // }
 // console.log(golfScore(5, 0));
 
+/* Write a switch statement which tests val and sets answer for the following conditions:
+1 : "alpha"
+2 : "beta"
+3 : "gamma"
+4 : "delta"
+*/
+function caseInSwitch(val) {
+    var answer = "";
+    switch(val) {
+        case 1: answer = "alpha";
+    }
+    return answer;
+}
+console.log(caseInSwitch(1));
