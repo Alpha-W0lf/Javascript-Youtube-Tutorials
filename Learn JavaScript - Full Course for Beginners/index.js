@@ -529,15 +529,25 @@
 // }
 // console.log(testLogicalOr(13));
 
-function testElse(val) {
+function testElseFirst(val) {
     var result = "";
     if (val > 5) {
         result = "Greater than 5";
-    else result = "Less than or equal to 5";
     }
-    // if (val <= 5) {
-    //     result = "5 or smaller";
-    // }
+    if (val <= 5) {
+        result = "Less than or equal to 5";
+    }
+    return result
+}
+console.log(testElseFirst(17));
+
+function testElseSecond(val2) {
+    result = "";
+    if (val2 > 9) {
+        result = "Greater than 9";
+    } else {
+        result = "Less than or equal to 9";
+    }
     return result;
 }
-console.log(testElse(17));
+console.log(testElseSecond(8));
