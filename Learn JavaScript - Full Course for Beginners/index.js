@@ -491,21 +491,22 @@
 // }
 // console.log(testLessOrEqual(75));
 
-function testLogicalAnd(val) {
-    if (val >= 20) {
-        if (val <= 50) {
-            return "Yes";
-        }
-        return "Partial";
-    }
-    return "No";
-}
-console.log(testLogicalAnd(444));
+// function testLogicalAnd(val) {
+//     if (val >= 20) {
+//         if (val <= 50) {
+//             return "Yes";
+//         }
+//         return "Partial";
+//     }
+//     return "No";
+// }
+// console.log(testLogicalAnd(444));
 
-function testLogicalAndBetter(val2) {
-    if (val2 >= 20 && val2 <= 50) {
-        return "Yes";
-    }
-    return "No";
-}
-console.log(testLogicalAndBetter(44));
+// function testLogicalAndBetter(val2) {
+//     if (val2 >= 20 && val2 <= 50) {
+//         return "Yes";
+//     }
+//     return "No";
+// }
+// console.log(testLogicalAndBetter(44));
+
