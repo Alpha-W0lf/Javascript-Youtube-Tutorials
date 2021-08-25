@@ -521,10 +521,23 @@
 // }
 // console.log(testLogicalOr(-33));
 
-function testLogicalOr(val2) {
-    if (val2 < 10 || val2 > 20) {
-        return "OUTside";
+// function testLogicalOr(val2) {
+//     if (val2 < 10 || val2 > 20) {
+//         return "OUTside";
+//     }
+//     return "INside";
+// }
+// console.log(testLogicalOr(13));
+
+function testElse(val) {
+    var result = "";
+    if (val > 5) {
+        result = "Greater than 5";
+    else result = "Less than or equal to 5";
     }
-    return "INside";
+    // if (val <= 5) {
+    //     result = "5 or smaller";
+    // }
+    return result;
 }
-console.log(testLogicalOr(13));
+console.log(testElse(17));
