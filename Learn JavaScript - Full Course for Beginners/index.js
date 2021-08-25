@@ -585,17 +585,49 @@ num < 15 : return "Medium"
 num < 20 : return "Large"
 num >= 20 : return "Huge"
 */
-function testSize(num) {
-    if (num < 5) {
-        return "Tiny";
-    } else if (num < 10) {
-        return "Small";
-    } else if (num < 15) {
-        return "Medium";
-    } else if (num < 20) {
-        return "Large";
+// function testSize(num) {
+//     if (num < 5) {
+//         return "Tiny";
+//     } else if (num < 10) {
+//         return "Small";
+//     } else if (num < 15) {
+//         return "Medium";
+//     } else if (num < 20) {
+//         return "Large";
+//     } else {
+//         return "Huge";
+//     }
+// }
+// console.log(testSize(21));
+
+/*
+Strokes     Return
+1           "Hole-in-one!"
+<= par - 2  "Eagle"
+par - 1     "Birdie"
+par         "Par"
+par + 1     "Bogey"
+par + 2     "Double Bogey"
+>= par + 3  "Go Home!"
+*/
+var names = ["Hole-In-One!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"]
+function golfScore(par, strokes) {
+    if (strokes <= 0) {
+        return "Error. Strokes cannot be less than 1!";
+    } else if (strokes == 1) {
+        return names[0];
+    } else if (strokes <= (par - 2)) {
+        return (names[1]);
+    } else if (strokes == (par - 1)) {
+        return (names[2]);
+    } else if (strokes == par) {
+        return (names[3]);
+    } else if (strokes == (par + 1)) {
+        return (names[4]);
+    } else if (strokes == (par + 2)) {
+        return (names[5]);
     } else {
-        return "Huge";
+        return (names[6]);
     }
 }
-console.log(testSize(21));
+console.log(golfScore(5, 0));
