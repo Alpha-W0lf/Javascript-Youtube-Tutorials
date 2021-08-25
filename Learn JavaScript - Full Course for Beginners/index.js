@@ -568,12 +568,12 @@
 // console.log(testElif(87));
 
 function orderMyLogic(val) {
-    if (val < 10) {
-        return "Less than 10";
-    } else if (val < 5) {
+    if (val < 5) {
         return "Less than 5";
+    } else if (val < 10) {
+        return "Less than 10";
     } else {
         return "Greater than or equal to 10";
     }
 }
-console.log(orderMyLogic(173));
+console.log(orderMyLogic(3));
