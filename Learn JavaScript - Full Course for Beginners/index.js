@@ -552,17 +552,28 @@
 // }
 // console.log(testElseSecond(8));
 
-function testElif(val) {
-    result = "";
-    if (val > 100) {
-        result = "Greater than 100";
-    } else if (val > 75) {
-        result = "Greater than 75";
-    } else if (val > 50) {
-        result = "Greater than 50";
+// function testElif(val) {
+//     result = "";
+//     if (val > 100) {
+//         result = "Greater than 100";
+//     } else if (val > 75) {
+//         result = "Greater than 75";
+//     } else if (val > 50) {
+//         result = "Greater than 50";
+//     } else {
+//         result = "Less than or equal to 50";
+//     }
+//     return result;
+// }
+// console.log(testElif(87));
+
+function orderMyLogic(val) {
+    if (val < 10) {
+        return "Less than 10";
+    } else if (val < 5) {
+        return "Less than 5";
     } else {
-        result = "Less than or equal to 50";
+        return "Greater than or equal to 10";
     }
-    return result;
 }
-console.log(testElif(87));
+console.log(orderMyLogic(173));
