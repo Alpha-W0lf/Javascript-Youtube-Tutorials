@@ -458,14 +458,24 @@
 
 // console.log(testGreaterThan('1000'));
 
-function testGreaterOrEqual(val) {
-    if (val >= 20) {
-        return "Greater or equal to 20";
-    }
-    if (val >= 10) {
-        return "Greater or equal to 10";
-    }
-    return "Less than 10";
-}
+// function testGreaterOrEqual(val) {
+//     if (val >= 20) {
+//         return "Greater or equal to 20";
+//     }
+//     if (val >= 10) {
+//         return "Greater or equal to 10";
+//     }
+//     return "Less than 10";
+// }
+// console.log(testGreaterOrEqual(100));
 
-console.log(testGreaterOrEqual(10));
+function testLessThan(val) {
+    if (val <=25) {
+        return "Less than/equal to 25";
+    }
+    if (val <= 55) {
+        return "Less than/equal to 55";
+    }
+    return "Greater than 55";
+}
+console.log(testLessThan(75));
