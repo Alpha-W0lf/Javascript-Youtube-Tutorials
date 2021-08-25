@@ -491,3 +491,13 @@
 // }
 // console.log(testLessOrEqual(75));
 
+function testLogicalAnd(val) {
+    if (val >= 20) {
+        if (val <= 50) {
+            return "Yes";
+        }
+        return "Partial";
+    }
+    return "No";
+}
+console.log(testLogicalAnd(444));
