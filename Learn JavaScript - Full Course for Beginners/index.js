@@ -522,9 +522,9 @@
 // console.log(testLogicalOr(-33));
 
 function testLogicalOr(val2) {
-    if (val2 < 10) {
-        return "Outside";
+    if (val2 < 10 || val2 > 20) {
+        return "OUTside";
     }
-    return "Inside";
+    return "INside";
 }
-console.log(testLogicalOr(-33));
+console.log(testLogicalOr(13));
