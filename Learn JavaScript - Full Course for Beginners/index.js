@@ -510,3 +510,13 @@
 // }
 // console.log(testLogicalAndBetter(44));
 
+function testLogicalOr(val) {
+    if (val < 10) {
+        return "Less than 10";
+    }
+    if (val > 20) {
+        return "Greater than 20";
+    }
+    return "Between 10 and 20";
+}
+console.log(testLogicalOr(33));
