@@ -659,26 +659,25 @@ par + 2     "Double Bogey"
 // }
 // console.log(caseInSwitch(4));
 
-function switchOfStuff(val) {
-    var answer = "";
-    switch (val) {
-        case "a":
-            answer = "apple";
-            break;
-        case "b":
-            answer = "bird";
-            break;
-        case "c":
-            answer = "cat";
-            break;
-        case "d":
-            answer = "dog";
-            break;
-        default:
-            answer = "stuff";
-            break;
-    }
-    return answer;
-}
-
-console.log(switchOfStuff("dog"));
+// function switchOfStuff(val) {
+//     var answer = "";
+//     switch (val) {
+//         case "a":
+//             answer = "apple";
+//             break;
+//         case "b":
+//             answer = "bird";
+//             break;
+//         case "c":
+//             answer = "cat";
+//             break;
+//         case "d":
+//             answer = "dog";
+//             break;
+//         default:
+//             answer = "stuff";
+//             break;
+//     }
+//     return answer;
+// }
+// console.log(switchOfStuff("dog"));
