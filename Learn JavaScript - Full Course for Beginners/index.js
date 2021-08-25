@@ -501,3 +501,11 @@ function testLogicalAnd(val) {
     return "No";
 }
 console.log(testLogicalAnd(444));
+
+function testLogicalAndBetter(val2) {
+    if (val2 >= 20 && val2 <= 50) {
+        return "Yes";
+    }
+    return "No";
+}
+console.log(testLogicalAndBetter(44));
