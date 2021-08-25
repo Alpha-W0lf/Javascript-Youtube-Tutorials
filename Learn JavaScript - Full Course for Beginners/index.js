@@ -674,8 +674,11 @@ function switchOfStuff(val) {
         case "d":
             answer = "dog";
             break;
+        default:
+            answer = "stuff";
+            break;
     }
     return answer;
 }
 
-console.log(switchOfStuff("d"));
+console.log(switchOfStuff("dog"));
