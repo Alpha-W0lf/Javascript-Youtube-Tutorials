@@ -458,3 +458,14 @@
 
 // console.log(testGreaterThan('1000'));
 
+function testGreaterOrEqual(val) {
+    if (val >= 20) {
+        return "Greater or equal to 20";
+    }
+    if (val >= 10) {
+        return "Greater or equal to 10";
+    }
+    return "Less than 10";
+}
+
+console.log(testGreaterOrEqual(10));
