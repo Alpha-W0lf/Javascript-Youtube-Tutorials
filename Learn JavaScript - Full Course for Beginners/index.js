@@ -529,25 +529,41 @@
 // }
 // console.log(testLogicalOr(13));
 
-function testElseFirst(val) {
-    var result = "";
-    if (val > 5) {
-        result = "Greater than 5";
-    }
-    if (val <= 5) {
-        result = "Less than or equal to 5";
-    }
-    return result
-}
-console.log(testElseFirst(17));
+// function testElseFirst(val) {
+//     var result = "";
+//     if (val > 5) {
+//         result = "Greater than 5";
+//     }
+//     if (val <= 5) {
+//         result = "Less than or equal to 5";
+//     }
+//     return result
+// }
+// console.log(testElseFirst(17));
 
-function testElseSecond(val2) {
+// function testElseSecond(val2) {
+//     result = "";
+//     if (val2 > 9) {
+//         result = "Greater than 9";
+//     } else {
+//         result = "Less than or equal to 9";
+//     }
+//     return result;
+// }
+// console.log(testElseSecond(8));
+
+function testElif(val) {
     result = "";
-    if (val2 > 9) {
-        result = "Greater than 9";
-    } else {
-        result = "Less than or equal to 9";
+    if (val > 100) {
+        result = "Greater than 100";
+    } else if (val > 75) {
+        result = "Greater than 75";
+    } else if (val > 50) {
+        result = "Greater than 50";
+    }
+    else {
+        result = "Less than or equal to 50";
     }
     return result;
 }
-console.log(testElseSecond(8));
+console.log(testElif(87));
