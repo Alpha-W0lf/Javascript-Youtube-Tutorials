@@ -469,6 +469,17 @@
 // }
 // console.log(testGreaterOrEqual(100));
 
+function testLessThan(val) {
+    if (val < 25) {
+        return "Less than 25";
+    }
+    if (val < 55) {
+        return "Less than 55";
+    }
+    return "55 or greater";
+}
+console.log(testLessThan(65));
+
 // function testLessOrEqual(val) {
 //     if (val <=25) {
 //         return "Less than/equal to 25";
@@ -479,3 +490,4 @@
 //     return "Greater than 55";
 // }
 // console.log(testLessOrEqual(75));
+
