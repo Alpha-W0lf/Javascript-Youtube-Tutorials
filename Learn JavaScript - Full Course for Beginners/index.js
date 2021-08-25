@@ -560,8 +560,7 @@ function testElif(val) {
         result = "Greater than 75";
     } else if (val > 50) {
         result = "Greater than 50";
-    }
-    else {
+    } else {
         result = "Less than or equal to 50";
     }
     return result;
