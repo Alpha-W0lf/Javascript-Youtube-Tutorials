@@ -795,3 +795,13 @@ par + 2     "Double Bogey"
 //     "friends": ["the entire world!"]
 // }
 
+// var testObj = {
+//     "hat": "ballcap",
+//     "shirt": "jersey",
+//     "shoes": "cleats"
+// };
+
+// testObj.hat = "cowboy";
+// console.log(testObj);
+// var shirtValue = testObj.shirt;
+// console.log(shirtValue);
