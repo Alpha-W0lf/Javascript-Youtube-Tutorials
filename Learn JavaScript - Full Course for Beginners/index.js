@@ -866,3 +866,23 @@ par + 2     "Double Bogey"
 // myDog['bark'] = "bark-bark!!";
 // console.log(ourDog.bark, myDog.bark)
 
+// var ourDog = {
+//     "name": "Camper",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": ["everything!"]
+// };
+
+// ourDog.bark = "bow-wow";
+
+// var myDog = {
+//     "name": "Happy Coder",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": ["all people"]
+// };
+
+// myDog['bark'] = "bark-bark!!";
+// delete myDog.tails;
+
+// console.log(ourDog, myDog);
