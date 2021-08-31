@@ -781,16 +781,17 @@ par + 2     "Double Bogey"
 // cc(2); cc("K"); cc(7); cc('K'); cc('A');
 // console.log(cc(4));
 
-var ourDog = {
-    "name": "Camper",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["everything!"]
-};
+// var ourDog = {
+//     "name": "Camper",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": ["everything!"]
+// };
 
-var myDog = {
-    "name": "Quincy",
-    "legs": 3,
-    "tails": 2,
-    "friends": ["the entire world!"]
-}
+// var myDog = {
+//     "name": "Quincy",
+//     "legs": 3,
+//     "tails": 2,
+//     "friends": ["the entire world!"]
+// }
+
