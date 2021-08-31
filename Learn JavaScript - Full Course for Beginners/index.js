@@ -972,3 +972,18 @@ par + 2     "Double Bogey"
 //         ]
 //     }
 // ];
+
+var myStorage = {
+    "cars": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+
+var gloveBoxContents = myStorage.cars.inside["glove box"];
+console.log(gloveBoxContents);
