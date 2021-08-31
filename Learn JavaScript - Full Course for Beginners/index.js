@@ -935,18 +935,40 @@ par + 2     "Double Bogey"
 
 // console.log(phoneticLookup("foxtrot"));
 
-var myObj = {
-    gift: "pony",
-    pet: "kitten",
-    bed: "sleigh"
-};
+// var myObj = {
+//     gift: "pony",
+//     pet: "kitten",
+//     bed: "sleigh"
+// };
 
-function checkObj(checkProp) {
-    if (myObj.hasOwnProperty(checkProp)) {
-        return myObj[checkProp];
-    } else {
-        return "Not Found";
-    }
-};
+// function checkObj(checkProp) {
+//     if (myObj.hasOwnProperty(checkProp)) {
+//         return myObj[checkProp];
+//     } else {
+//         return "Not Found";
+//     }
+// };
 
-console.log(checkObj("hello"));
+// console.log(checkObj("hello"));
+
+// var myMusic = [
+//     {
+//         "artist": "Billy Joel",
+//         "title": "Piano Man",
+//         "release_year": 1973,
+//         "formats": [
+//             "CD",
+//             "8T",
+//             "LP"
+//         ],
+//         "gold": true
+//     },
+//     {
+//         "artist": "Beau Carnes",
+//         "title": "Cereal Man",
+//         "release_year": 2003,
+//         "formats": [
+//             "YouTube video"
+//         ]
+//     }
+// ];
