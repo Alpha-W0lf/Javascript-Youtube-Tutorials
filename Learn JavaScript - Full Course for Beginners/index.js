@@ -988,24 +988,24 @@ par + 2     "Double Bogey"
 // var gloveBoxContents = myStorage.cars.inside["glove box"];
 // console.log(gloveBoxContents);
 
-var myPlants = [
-    {
-        type: "flowers",
-        list: [
-            "rose",
-            "tulip",
-            "dandelion"
-        ]
-    },
-    {
-        type: "trees",
-        list: [
-            "fir",
-            "pine",
-            "birch"
-        ]
-    }
-];
+// var myPlants = [
+//     {
+//         type: "flowers",
+//         list: [
+//             "rose",
+//             "tulip",
+//             "dandelion"
+//         ]
+//     },
+//     {
+//         type: "trees",
+//         list: [
+//             "fir",
+//             "pine",
+//             "birch"
+//         ]
+//     }
+// ];
 
-var secondTree = myPlants[1].list[1];
-console.log(secondTree);
+// var secondTree = myPlants[1].list[1];
+// console.log(secondTree);
