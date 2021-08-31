@@ -918,19 +918,19 @@ par + 2     "Double Bogey"
 
 // console.log(phoneticLookup("apha"));
 
-function phoneticLookup(val) {
-    var result = "";
+// function phoneticLookup(val) {
+//     var result = "";
 
-    var lookup = {
-        "alpha": "Adams",
-        "bravo": "Boston",
-        "charlie": "Chicago",
-        "delta": "Denver",
-        "echo": "Easy",
-        "foxtrot": "Frank"
-    };
-    result = lookup[val];
-    return result;
-};
+//     var lookup = {
+//         "alpha": "Adams",
+//         "bravo": "Boston",
+//         "charlie": "Chicago",
+//         "delta": "Denver",
+//         "echo": "Easy",
+//         "foxtrot": "Frank"
+//     };
+//     result = lookup[val];
+//     return result;
+// };
 
-console.log(phoneticLookup("echo"));
+// console.log(phoneticLookup("foxtrot"));
