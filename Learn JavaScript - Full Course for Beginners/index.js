@@ -809,7 +809,7 @@ par + 2     "Double Bogey"
 // var testObj = {
 //     "an entree" : "Hamburger",
 //     "my side" : "Veggies",
-//     "the drink" : "water"
+//     "the drink" : "Water"
 // };
 
 // var entreeValue = testObj["an entree"];
@@ -817,3 +817,14 @@ par + 2     "Double Bogey"
 // testObj["an entree"]="Pizza"
 // console.log(testObj["an entree"])
 // console.log(entreeValue, drinkValue)
+
+// var testObj = {
+//     12: "Namath",
+//     16: "Montana",
+//     19: "Unitas"
+// };
+
+// var playerNumber = 16;
+// var player = testObj[playerNumber];
+// console.log(player);
+
