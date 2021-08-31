@@ -708,29 +708,34 @@ par + 2     "Double Bogey"
 // }
 // console.log(sequentialSizes(81));
 
-function chainToSwitch(val) {
-    var answer = "";
+// function chainToSwitch(val) {
+//     var answer = "";
 
-    switch(val) {
-        case "bob":
-            answer = "Marley";
-            break;
-        case 42:
-            answer = "The Answer";
-            break;
-        case 1:
-            answer = "There is no #1";
-            break;
-        case 99:
-            answer = "Missed me by this much!";
-            break;
-        case 7:
-            answer = "Ate Nine";
-            break;
-        default:
-            answer = "Default value";
-    }
-    return console.log(answer);
+//     switch(val) {
+//         case "bob":
+//             answer = "Marley";
+//             break;
+//         case 42:
+//             answer = "The Answer";
+//             break;
+//         case 1:
+//             answer = "There is no #1";
+//             break;
+//         case 99:
+//             answer = "Missed me by this much!";
+//             break;
+//         case 7:
+//             answer = "Ate Nine";
+//             break;
+//         default:
+//             answer = "Default value";
+//     }
+//     return console.log(answer);
+// }
+// chainToSwitch(1);
+
+function isLess(a, b) {
+    return a < b;
 }
-chainToSwitch(1);
 
+console.log(isLess(10, 1));
