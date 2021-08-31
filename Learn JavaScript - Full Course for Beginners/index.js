@@ -706,5 +706,5 @@ par + 2     "Double Bogey"
 //     }
 //     return answer;
 // }
-// console.log(sequentialSizes(8));
+// console.log(sequentialSizes(81));
 
