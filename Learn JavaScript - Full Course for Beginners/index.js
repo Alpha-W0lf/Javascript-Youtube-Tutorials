@@ -805,3 +805,15 @@ par + 2     "Double Bogey"
 // console.log(testObj);
 // var shirtValue = testObj.shirt;
 // console.log(shirtValue);
+
+// var testObj = {
+//     "an entree" : "Hamburger",
+//     "my side" : "Veggies",
+//     "the drink" : "water"
+// };
+
+// var entreeValue = testObj["an entree"];
+// var drinkValue = testObj["the drink"];
+// testObj["an entree"]="Pizza"
+// console.log(testObj["an entree"])
+// console.log(entreeValue, drinkValue)
