@@ -886,3 +886,51 @@ par + 2     "Double Bogey"
 // delete myDog.tails;
 
 // console.log(ourDog, myDog);
+
+// function phoneticLookup(val) {
+//     var result = "";
+
+//     switch(val) {
+//         case "alpha":
+//             result = "Adams";
+//             break;
+//         case "bravo":
+//             result = "Boston";
+//             break;
+//         case "charlie":
+//             result = "Chicago";
+//             break;
+//         case "delta":
+//             result = "Denver";
+//             break;
+//         case "echo":
+//             result = "Easy";
+//             break;
+//         case "foxtrot":
+//             result = "Frank";
+//             break;
+//         default:
+//             result = "Default Value";
+//             break;
+//     };
+//     return result;
+// };
+
+// console.log(phoneticLookup("apha"));
+
+function phoneticLookup(val) {
+    var result = "";
+
+    var lookup = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago",
+        "delta": "Denver",
+        "echo": "Easy",
+        "foxtrot": "Frank"
+    };
+    result = lookup[val];
+    return result;
+};
+
+console.log(phoneticLookup("echo"));
