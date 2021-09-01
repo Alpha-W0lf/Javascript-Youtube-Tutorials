@@ -1053,11 +1053,19 @@ par + 2     "Double Bogey"
 // updateRecords(5439, "artist", "ABBA");
 // console.log(updateRecords(2468, "tracks", "TEST"));
 
-var myArray = [];
-var i = 0;
+// var myArray = [];
+// var i = 0;
 
-while(i < 5) {
-    myArray.push(i);
-    i++;
+// while(i < 5) {
+//     myArray.push(i);
+//     i++;
+// }
+// console.log(myArray);
+
+var ourArray = [];
+
+for (var i = 0; i < 5; i++) {
+    ourArray.push(i);
 }
-console.log(myArray);
+
+var myArray = [];
