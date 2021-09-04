@@ -6,6 +6,7 @@ function isPalindrome(given) {
     let array_reverse = array.reverse();
     reverse = array_reverse.join('');
     console.log(reverse);
+    console.log(given_lower === given_lower.split('').reverse().join(''))
     return given_lower === reverse;
     // for (var i = 0; i < array.length; i++) {
     //     if(array[i] !== array_reverse[i]) {
@@ -21,4 +22,4 @@ function isPalindrome(given) {
     // }
 };
 
-console.log(isPalindrome("malayalam"));
+console.log(isPalindrome("mAlayalam"));
