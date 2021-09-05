@@ -56,4 +56,4 @@ function fibEntry(n) {
     return curr;
 };
 
-console.log(fibEntry(6));
+console.log(fibEntry(10));
