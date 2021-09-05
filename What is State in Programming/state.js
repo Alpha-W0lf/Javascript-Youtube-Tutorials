@@ -11,4 +11,4 @@ function renderState() {
 
 setInterval(function () {
     incrementCounter();
-}, 1000);
+}, 2000);
