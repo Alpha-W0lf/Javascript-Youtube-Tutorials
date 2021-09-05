@@ -1,5 +1,31 @@
-import React, { useState } from 'react';
-import '.styles.css';
+// import React, { useState } from 'react';
+// import '.styles.css';
+
+'use strict';
+
+const e = React.createElement;
+
+class increment_component extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
+
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
+
+    return e(
+      'button',
+      { onClick: () => this.setState({ liked: true }) },
+      'Like'
+    );
+  }
+}
+
+const domContainer = document.querySelector('#increment_component');
+ReactDOM.render(e(increment_component), domContainer);
 
 // let counter = 0;
 
@@ -16,7 +42,7 @@ import '.styles.css';
 //     incrementCounter();
 // }, 2000);
 
-<h2>HELLO</h2>
+{/* <h2>HELLO</h2> */}
 
 function App() {
     const [counter, setCounter] = useState(0);
@@ -32,4 +58,4 @@ function App() {
     );
 }
 
-export default state;
+export default App;
