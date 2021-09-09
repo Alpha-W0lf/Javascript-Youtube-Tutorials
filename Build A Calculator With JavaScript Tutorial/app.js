@@ -69,3 +69,5 @@ equalsButton.addEventListener('click', button => {
     calculator.compute()
     calculator.updateDisplay()
 })
+
+// Left off at 26:24 of video https://www.youtube.com/watch?v=j59qQ7YWLxw&list=PLcGaOiwRGOsN9kgwMVOO7e6zwIUvDTXF7
