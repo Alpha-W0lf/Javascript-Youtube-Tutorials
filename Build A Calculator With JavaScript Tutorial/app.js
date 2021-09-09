@@ -12,7 +12,19 @@ class Calculator {
         
     }
 
-    appendNumber() {
+    appendNumber(number) {
+
+    }
+
+    chooseOperation(operation) {
+
+    }
+
+    compute() {
+
+    }
+
+    updateDisplay() {
         
     }
 }
